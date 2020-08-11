@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43810" started-at="2020-08-11T18:19:41 IST" finished-at="2020-08-11T18:20:25 IST">
+    <groups>
+      <group name="settings">
+        <method signature="ExecuteERPtest.clickOnSettings()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="clickOnSettings" class="execution.ExecuteERPtest"/>
+        <method signature="ExecuteERPtest.createUser()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="createUser" class="execution.ExecuteERPtest"/>
+        <method signature="ExecuteERPtest.assignAdminrole()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="assignAdminrole" class="execution.ExecuteERPtest"/>
+      </group> <!-- settings -->
+      <group name="CompanyProfile">
+        <method signature="ExecuteERPtest.ClickOnCompanyProfile()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="ClickOnCompanyProfile" class="execution.ExecuteERPtest"/>
+        <method signature="ExecuteERPtest.setCompanyProfile()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="setCompanyProfile" class="execution.ExecuteERPtest"/>
+      </group> <!-- CompanyProfile -->
+    </groups>
+    <test name="Default test" duration-ms="43810" started-at="2020-08-11T18:19:41 IST" finished-at="2020-08-11T18:20:25 IST">
+      <class name="execution.ExecuteERPtest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="setUp" is-config="true" duration-ms="11370" started-at="2020-08-11T18:19:41 IST" finished-at="2020-08-11T18:19:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="LoginTest" duration-ms="1912" started-at="2020-08-11T18:19:53 IST" finished-at="2020-08-11T18:19:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="ClickOnCompanyProfile()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="ClickOnCompanyProfile" duration-ms="8841" started-at="2020-08-11T18:19:55 IST" depends-on-methods="execution.ExecuteERPtest.LoginTest" finished-at="2020-08-11T18:20:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCompanyProfile -->
+        <test-method status="PASS" signature="setCompanyProfile()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="setCompanyProfile" duration-ms="4938" started-at="2020-08-11T18:20:04 IST" depends-on-methods="execution.ExecuteERPtest.ClickOnCompanyProfile" finished-at="2020-08-11T18:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCompanyProfile -->
+        <test-method status="PASS" signature="clickOnSettings()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="clickOnSettings" duration-ms="4130" depends-on-groups="CompanyProfile" started-at="2020-08-11T18:20:09 IST" finished-at="2020-08-11T18:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSettings -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="createUser" duration-ms="6078" started-at="2020-08-11T18:20:13 IST" depends-on-methods="execution.ExecuteERPtest.clickOnSettings" finished-at="2020-08-11T18:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="assignAdminrole()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="assignAdminrole" duration-ms="4308" started-at="2020-08-11T18:20:19 IST" depends-on-methods="execution.ExecuteERPtest.createUser" finished-at="2020-08-11T18:20:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignAdminrole -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:execution.ExecuteERPtest@67205a84]" name="closeBrowser" is-config="true" duration-ms="2151" started-at="2020-08-11T18:20:23 IST" finished-at="2020-08-11T18:20:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- execution.ExecuteERPtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
